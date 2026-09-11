@@ -1,113 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jeff Rio Mausisa | Personal Portfolio</title>
+    <title>Jeff Rio Mausisa | Portfolio</title>
 
-    <meta name="description" content="Personal portfolio of Jeff Rio Mausisa, a Computer Science student interested in programming, web development, and technology.">
+    <meta
+        name="description"
+        content="Personal portfolio of Jeff Rio Mausisa, a Computer Science student and aspiring web developer."
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
-        <h1>Jeff Rio Mausisa</h1>
-        <p>Computer Science Student | Aspiring Web Developer</p>
 
-        <nav aria-label="Main navigation">
-            <ul>
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                JRM
+            </a>
+
+            <ul class="nav-links">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
+
+
+        <!-- Hero -->
+        <div class="hero">
+
+            <div class="hero-text">
+
+                <p class="hero-small-text">
+                    HELLO, I'M
+                </p>
+
+                <h1>
+                    Jeff Rio
+                    <span>Mausisa</span>
+                </h1>
+
+                <h2>
+                    Computer Science Student &
+                    <span>Aspiring Web Developer</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am interested in programming, web development,
+                    and building useful technology solutions through
+                    creative and practical projects.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-circle">
+
+                    <img
+                        src="Jeff_Rio_Mausisa_2x2.png"
+                        alt="Profile picture sa gwapo haha"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
     </header>
+
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <!-- About -->
+        <section id="about" class="section">
 
-            <article>
-                <p>
-                    Hi! I'm Jeff Rio Mausisa, a Computer Science student interested
-                    in programming, web development, and learning how technology
-                    can be used to create useful systems. I am continuously
-                    improving my skills by working on different programming and
-                    web development projects.
-                </p>
-            </article>
+            <div class="section-title">
+
+                <p>GET TO KNOW ME</p>
+
+                <h2>About Me</h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        Hi! I'm Jeff Rio Mausisa, a Computer Science
+                        student interested in programming, web development,
+                        and learning how technology can be used to create
+                        useful systems.
+                    </p>
+
+                    <p>
+                        I continuously improve my skills by working on
+                        different programming and web development projects.
+                        My goal is to become a capable developer who can
+                        create practical and meaningful digital solutions.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <div>
+                        <strong>CS</strong>
+                        <span>Student</span>
+                    </div>
+
+                    <div>
+                        <strong>5+</strong>
+                        <span>Technologies</span>
+                    </div>
+
+                    <div>
+                        <strong>2</strong>
+                        <span>Projects</span>
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>C Programming</li>
-                
-            </ul>
+        <!-- Skills -->
+        <section id="skills" class="section">
+
+            <div class="section-title">
+
+                <p>WHAT I WORK WITH</p>
+
+                <h2>My Skills</h2>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML</h3>
+                    <p>Building structured and semantic web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS</h3>
+                    <p>Creating responsive and modern interfaces.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and dynamic functionality.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">PHP</div>
+                    <h3>PHP</h3>
+                    <p>Developing server-side web applications.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">C</div>
+                    <h3>C Programming</h3>
+                    <p>Learning programming fundamentals and algorithms.</p>
+                </div>
+
+            </div>
+
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
 
-               <article>
-                <h3>Kardel</h3>
+        <!-- Projects -->
+        <section id="projects" class="section">
 
-                <p>
-                    A Philippine vehicle marketplace website designed to help users browse vehicle listings and connect with sellers. 
-                    It serves as an online marketplace and a type of e-commerce platform, allowing buyers to explore vehicles, 
-                    view seller information, and send inquiries about available listings
-                </p>
+            <div class="section-title">
 
-            </article>
+                <p>MY RECENT WORK</p>
 
-            <article>
-                <h3>Barangay Imadejas Butuan City QR Attendance System</h3>
+                <h2>Projects</h2>
 
-                <p>
-                    A web-based offline attendance system developed for Barangay Imadejas, Butuan City. 
-                    The system uses QR codes to record and manage attendance digitally. It was developed 
-                    and hosted locally using XAMPP, allowing the system to operate without an internet 
-                    connection and making the attendance process more organized and efficient.
-                </p>
+            </div>
 
-            </article>
+
+            <div class="projects-grid">
+
+                <!-- Kardel -->
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="kardel.png"
+                            alt="Screenshot of Kardel vehicle marketplace"
+                        >
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-number">
+                            PROJECT 02
+                        </p>
+
+                        <h3>Kardel</h3>
+
+                        <p>
+                            A Philippine vehicle marketplace website
+                            designed to help users browse vehicle listings
+                            and connect with sellers.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- QR Attendance -->
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="imadejas.png"
+                            alt="Screenshot of Barangay Imadejas QR Attendance System"
+                        >
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-number">
+                            PROJECT 01
+                        </p>
+
+                        <h3>
+                            Barangay Imadejas QR Attendance
+                        </h3>
+
+                        <p>
+                            A web-based offline attendance system that
+                            uses QR codes to record and manage attendance
+                            digitally.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>XAMPP</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
 
-            <p>
-                You can contact me through the following links:
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+
+            <div class="section-title">
+
+                <p>GET IN TOUCH</p>
+
+                <h2>Contact Me</h2>
+
+            </div>
+
+            <p class="contact-description">
+                Interested in my work or want to connect?
+                Feel free to reach out.
             </p>
 
-            <ul>
-                <li>
-                    <a href="mailto:mausisajeffrio@gmail.com">
-                        Send me an email
-                    </a>
-                </li>
+            <div class="contact-buttons">
 
-                <li>
-                    <a href="https://github.com/mausisajeffrio-eng">
-                        Visit my GitHub profile
-                    </a>
-                </li>
-            </ul>
+                <a
+                    href="mailto:mausisajeffrio@gmail.com"
+                    class="contact-btn"
+                >
+                    Email Me
+                </a>
+
+                <a
+                    href="https://github.com/mausisajeffrio-eng"
+                    class="contact-btn"
+                >
+                    GitHub
+                </a>
+
+            </div>
+
         </section>
 
     </main>
 
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Jeff Rio Mausisa. All rights reserved.</p>
+
+        <p>
+            &copy; 2026 Jeff Rio Mausisa. All rights reserved.
+        </p>
+
     </footer>
 
 </body>
+
 </html>
